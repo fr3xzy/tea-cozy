@@ -8,6 +8,11 @@ html {
 	text-align: center;
 }
 
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
 /* header */
 
 header {
@@ -15,4 +20,23 @@ header {
 	position: fixed;
 	height: 69px;
 	border-bottom: 1px solid seashell;
+	width: 100%;
+	z-index: 1;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.logo img {
+	padding-left: 10px;
+	height: 50px;
+}
+
+span a {
+	color: seashell;
+	text-decoration: underline;
 }
