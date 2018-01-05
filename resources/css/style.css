@@ -23,6 +23,11 @@ header {
 	width: 100%;
 	z-index: 1;
 	align-items: center;
+	background-color: black;
+}
+
+div {
+	align-items: center;
 }
 
 .logo {
@@ -39,4 +44,44 @@ header {
 span a {
 	color: seashell;
 	text-decoration: underline;
+}
+
+/* our mission */
+
+.container {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	display: inline-flex;
+	width: 1200px;
+	height: 700px;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.content {
+	background-color: black;
+}
+
+/*teas of the month*/
+
+#tea-container {
+	justify-content: center;
+}
+
+.tea-of-the-month {
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+.teas {
+	
+}
+
+.teas img {
+	height: 200px;
+	width: 300px;
 }
