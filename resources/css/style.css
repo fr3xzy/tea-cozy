@@ -6,6 +6,7 @@ html {
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+	justify-content: center;
 }
 
 nav span {
@@ -55,33 +56,64 @@ span a {
 	height: 700px;
 	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
+	margin-top: 70px;
 	
 }
 
 .content {
 	background-color: black;
+	width: 100%;
 }
 
 /*teas of the month*/
 
-#tea-container {
-	justify-content: center;
-}
-
-.tea-of-the-month {
+#tea-of-the-month {
 	width: 1000px;
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
-
 }
 
 .teas {
-	
+	margin: auto;
 }
 
 .teas img {
 	height: 200px;
 	width: 300px;
+}
+
+/*Locations*/
+
+#locations {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#location-heading{
+	
+}
+
+.location-box {
+	background-color: black;
+	width: 300px;
+	margin-right: 40px;
+}
+
+/*contact*/
+
+.contact {
+	height: 200px;
+}
+
+/*footer*/
+
+footer {
+	text-align: left;
 }
