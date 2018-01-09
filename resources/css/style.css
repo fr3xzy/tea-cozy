@@ -91,19 +91,25 @@ span a {
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 	height: 500px;
 	width: 1200px;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+
 }
 
-#location-heading{
-	
+.locations h2 {
+	margin: 15px;
 }
 
 .location-box {
 	background-color: black;
 	width: 300px;
-	margin-right: 40px;
+	margin-right: 40px; 
+	opacity: 1;
+}
+
+#row {
+	display: inline-flex;
+	flex-direction: row;
 }
 
 /*contact*/
@@ -116,4 +122,5 @@ span a {
 
 footer {
 	text-align: left;
+	margin-left: 20px;
 }
